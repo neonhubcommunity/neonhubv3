@@ -308,7 +308,7 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-local v14 = https://create.roblox.com/dashboard/creations/store/128060996916093/configure
+local v14 = "rbxassetid://128060996916093"
 local v15 = v14:CreateWindow({
     Title = "Neon Community",
     SubTitle = "",
