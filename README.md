@@ -308,7 +308,7 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
+local v14 =
 local v15 = v14:CreateWindow({
     Title = "Neon Community",
     SubTitle = "",
