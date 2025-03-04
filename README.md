@@ -100,10 +100,9 @@ local v7 = CreateObject("ImageLabel", {
 v4(25, v7);
 local v8 = CreateObject("TextLabel", {
     Name = "UserName",
-    PP
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Criado por: Neon Community",
+    Text = "Youtube: Min Gaming",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -311,7 +310,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
-    Title = "Neon Community",
+    Title = "Min Gaming",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Light",
@@ -339,28 +338,28 @@ local v16 = {
         Title = "Servidor"
     }),
     Stats = v15:AddTab({
-        Title = "Status"
+        Title = "Estatísticas"
     }),
     Player = v15:AddTab({
         Title = "Jogador"
     }),
     Teleport = v15:AddTab({
-        Title = "Teleporte"
+        Title = "Travel"
     }),
     Visual = v15:AddTab({
         Title = "Visual"
     }),
     Fruit = v15:AddTab({
-        Title = "Fruta"
+        Title = "Frutas"
     }),
     Raid = v15:AddTab({
         Title = "Raid"
     }),
     Race = v15:AddTab({
-        Title = "Loja"
+        Title = "Raça"
     }),
     Shop = v15:AddTab({
-        Title = "Raça"
+        Title = "Loja"
     }),
     Misc = v15:AddTab({
         Title = "Misc"
@@ -3873,7 +3872,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Neon Community",
-                    Content = "Ilha Da Lava Encontrada",
+                    Content = "A Ilha Pré Historica Apareceu",
                     Duration = 10
                 });
                 v513 = true;
@@ -3967,7 +3966,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Neon Community",
-                    Content = "Ilha Secreta Encontrada",
+                    Content = "A Ilha Mistica Apareceu",
                     Duration = 10
                 });
                 v513 = true;
@@ -4061,7 +4060,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Neon Community",
-                    Content = "Ilha Do Levita encontrada!",
+                    Content = "A Ilha Do Leviatã Apreceu",
                     Duration = 10
                 });
                 v513 = true;
@@ -9181,7 +9180,7 @@ local function v174()
             local v754 = v565:FindFirstChild("volcanorock");
             if (v754 and v754:IsA("MeshPart")) then
                 local v881 = v754.Color;
-                if ((v881 == Color3.fromRGB(185, 53, 56)) or (v881 == Color3.fromRGB(185, 53 ,57))) then
+                if ((v881 == Color3.fromRGB(185, 53, 56)) or (v881 == Color3.fromRGB(185, 53, 57))) then
                     return v754;
                 end
             end
@@ -9322,7 +9321,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "Neon Community",
-    Content = "Carregamento Finalizado",
+    Title = "Neon Comunnity",
+    Content = "Script Carregado Com Sucesso!",
     Duration = 10
 });
