@@ -93,13 +93,14 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://13717478897",
+    Image = "rbxassetid://134191848889531",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
 v4(25, v7);
 local v8 = CreateObject("TextLabel", {
     Name = "UserName",
+    PP
     Parent = v6,
     BackgroundTransparency = 1,
     Text = "Criado por: Neon Community",
