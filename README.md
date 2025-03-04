@@ -102,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Criador: Neon Community",
+    Text = "Criado por: Neon Community",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -323,13 +323,13 @@ local v16 = {
         Title = "Informações"
     }),
     Main = v15:AddTab({
-        Title = "Auto Farm"
+        Title = "Farm"
     }),
     Sea = v15:AddTab({
-        Title = "Events"
+        Title = "Eventos"
     }),
     ITM = v15:AddTab({
-        Title = "Items"
+        Title = "Itens"
     }),
     Setting = v15:AddTab({
         Title = "Configurações"
@@ -338,13 +338,13 @@ local v16 = {
         Title = "Servidor"
     }),
     Stats = v15:AddTab({
-        Title = "Stats"
+        Title = "Status"
     }),
     Player = v15:AddTab({
         Title = "Jogador"
     }),
     Teleport = v15:AddTab({
-        Title = "Teletranporte"
+        Title = "Teleporte"
     }),
     Visual = v15:AddTab({
         Title = "Visual"
@@ -356,13 +356,13 @@ local v16 = {
         Title = "Raid"
     }),
     Race = v15:AddTab({
-        Title = "Raça"
-    }),
-    Shop = v15:AddTab({
         Title = "Loja"
     }),
+    Shop = v15:AddTab({
+        Title = "Raça"
+    }),
     Misc = v15:AddTab({
-        Title = "Outros"
+        Title = "Misc"
     })
 };
 local v17 = v14.Options;
@@ -2674,10 +2674,10 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord Da Neon",
-    Description = "Discord Do Script",
+    Title = "Discord",
+    Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/FB7pWVun");
+        setclipboard("https://discord.gg/J37PW97j6a");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -3872,7 +3872,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Neon Community",
-                    Content = "A ilha De Lava Foi Encontrada!",
+                    Content = "Ilha Da Lava Encontrada",
                     Duration = 10
                 });
                 v513 = true;
@@ -3966,7 +3966,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Neon Community",
-                    Content = "Ilha Da Miragem Encontrada",
+                    Content = "Ilha Secreta Encontrada",
                     Duration = 10
                 });
                 v513 = true;
@@ -4060,7 +4060,7 @@ if Sea3 then
             if not v513 then
                 v14:Notify({
                     Title = "Neon Community",
-                    Content = "Ilha Do Leviatã Encontrada",
+                    Content = "Ilha Do Levita encontrada!",
                     Duration = 10
                 });
                 v513 = true;
@@ -9322,5 +9322,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "Neon Community",
-    Content = "Carregamento Concluido",
+    Content = "Carregamento Finalizado",
     Duration = 10
+});
