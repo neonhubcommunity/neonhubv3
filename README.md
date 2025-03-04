@@ -308,11 +308,7 @@ v5:Destroy();
 --         pcall(v422);
 --     end
 -- end);
-local img = Instance.new("ImageLabel")
-img.Parent = v15 -- Adiciona a imagem à janela
-img.Size = UDim2.new(0, 200, 0, 200) -- Define o tamanho
-img.Position = UDim2.new(0.5, -100, 0.5, -100) -- Centraliza
-img.Image = "rbxassetid://128060996916093" -- Substitua pelo ID da imagem
+local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
     Title = "Neon Community",
     SubTitle = "",
