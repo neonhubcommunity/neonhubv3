@@ -2739,7 +2739,7 @@ task.spawn(function()
     end
 end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
-    Title = "Cày Cấp",
+    Title = "Farmar Level",
     Description = "",
     Default = false
 });
@@ -2799,7 +2799,7 @@ spawn(function()
     end
 end);
 local v50 = v16.Main:AddToggle("ToggleMobAura", {
-    Title = "Đấm Quái Gần",
+    Title = "Auto Farm Near",
     Description = "",
     Default = false
 });
