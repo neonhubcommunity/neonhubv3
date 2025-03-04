@@ -93,7 +93,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://134191848889531",
+    Image = "rbxassetid://13717478897",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -9181,7 +9181,7 @@ local function v174()
             local v754 = v565:FindFirstChild("volcanorock");
             if (v754 and v754:IsA("MeshPart")) then
                 local v881 = v754.Color;
-                if ((v881 == Color3.fromRGB(185, 53, 56)) or (v881 == Color3.fromRGB(185, 53, 57))) then
+                if ((v881 == Color3.fromRGB(185, 53, 56)) or (v881 == Color3.fromRGB(185, 53 ,57))) then
                     return v754;
                 end
             end
