@@ -2675,7 +2675,7 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
 end
 v16.Home:AddButton({
     Title = "Discord",
-    Description = "Giao Lưu",
+    Description = "Discord Da Neon",
     Callback = function()
         setclipboard("https://discord.gg/J37PW97j6a");
     end
@@ -2693,7 +2693,7 @@ spawn(function()
     end
 end);
 local v48 = v16.Main:AddDropdown("DropdownSelectWeapon", {
-    Title = "Vũ Khí",
+    Title = "Select",
     Description = "",
     Values = {
         "Melee",
@@ -2845,7 +2845,7 @@ spawn(function()
     end
 end);
 local v51 = v16.Main:AddToggle("ToggleCastleRaid", {
-    Title = "Đấm Hải Tặc",
+    Title = "Matar Pirates",
     Description = "",
     Default = false
 });
@@ -2882,7 +2882,7 @@ spawn(function()
     end
 end);
 local v52 = v16.Main:AddToggle("ToggleHakiFortress", {
-    Title = "Bật Haki Màu Pháo Đài",
+    Title = "Ativar Hakis Castle",
     Description = "",
     Default = false
 });
@@ -2933,7 +2933,7 @@ spawn(function()
     end
 end);
 local v55 = v16.Main:AddToggle("ToggleCollectChest", {
-    Title = "Lụm Rương",
+    Title = "Auto Baú",
     Description = "",
     Default = false
 });
@@ -2967,7 +2967,7 @@ spawn(function()
 end);
 local v56 = v16.Main:AddSection("Thông Thạo");
 local v57 = v16.Main:AddDropdown("DropdownMastery", {
-    Title = "Cày Thông Thạo",
+    Title = "Farmar Maestria",
     Description = "",
     Values = {
         "Near Mobs"
@@ -2980,7 +2980,7 @@ v57:OnChanged(function(v249)
     TypeMastery = v249;
 end);
 local v58 = v16.Main:AddToggle("ToggleMasteryFruit", {
-    Title = "Cày Trái",
+    Title = "Masterizar Fruta",
     Description = "",
     Default = false
 });
@@ -2989,7 +2989,7 @@ v58:OnChanged(function(v250)
 end);
 v17.ToggleMasteryFruit:SetValue(false);
 local v59 = v16.Main:AddSlider("SliderHealt", {
-    Title = "Máu Quái",
+    Title = "Vida Mob",
     Description = "",
     Default = 20,
     Min = 0,
@@ -3091,7 +3091,7 @@ end);
 if Sea3 then
     local v484 = v16.Main:AddSection("Xương");
     local v485 = v16.Main:AddParagraph({
-        Title = "Xương Trạng Thái",
+        Title = "Ossos",
         Content = ""
     });
     spawn(function()
