@@ -2845,7 +2845,7 @@ spawn(function()
     end
 end);
 local v51 = v16.Main:AddToggle("ToggleCastleRaid", {
-    Title = "Matar Pirates",
+    Title = "Raid Castle",
     Description = "",
     Default = false
 });
@@ -2965,7 +2965,7 @@ spawn(function()
         end
     end
 end);
-local v56 = v16.Main:AddSection("Thông Thạo");
+local v56 = v16.Main:AddSection("Maestria");
 local v57 = v16.Main:AddDropdown("DropdownMastery", {
     Title = "Farmar Maestria",
     Description = "",
@@ -3089,7 +3089,7 @@ spawn(function()
     end
 end);
 if Sea3 then
-    local v484 = v16.Main:AddSection("Xương");
+    local v484 = v16.Main:AddSection("Ossos");
     local v485 = v16.Main:AddParagraph({
         Title = "Ossos",
         Content = ""
@@ -3098,12 +3098,12 @@ if Sea3 then
         pcall(function()
             while wait() do
                 local v768 = game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones", "Check");
-                v485:SetDesc("Mày Có: " .. tostring(v768) .. " Xương");
+                v485:SetDesc("Você Tem: " .. tostring(v768) .. " Ossos");
             end
         end);
     end);
     local v486 = v16.Main:AddToggle("ToggleBone", {
-        Title = "Cày Xương",
+        Title = "Farm Ossos",
         Description = "",
         Default = false
     });
@@ -3201,7 +3201,7 @@ if Sea3 then
         end
     end);
     v16.Main:AddButton({
-        Title = "Cầu Nguyện",
+        Title = "Auto Rezar",
         Description = "",
         Callback = function()
             local v572 = {
@@ -3212,7 +3212,7 @@ if Sea3 then
         end
     });
     v16.Main:AddButton({
-        Title = "Thử Vận May",
+        Title = "Auto Tentar A Sorte",
         Description = "",
         Callback = function()
             local v573 = {
@@ -3223,7 +3223,7 @@ if Sea3 then
         end
     });
     local v489 = v16.Main:AddToggle("ToggleRandomBone", {
-        Title = "Random Xương",
+        Title = "Trocar Ossos",
         Description = "",
         Default = false
     });
